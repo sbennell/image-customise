@@ -31,6 +31,62 @@
                 "value": "Allow",
                 "type": "String",
                 "note": "Enables location services"
+            },
+			{
+                "path": "HKLM:\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Explorer\\Advanced",
+                "name": "LaunchTo",
+                "value": 1,
+                "type": "DWord",
+                "note": " Set Explorer to launch This PC"
+            },
+			{
+                "path": "HKLM:\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Explorer\\HideDesktopIcons\\NewStartPanel",
+                "name": "{20D04FE0-3AEA-1069-A2D8-08002B30309D}",
+                "value": 0,
+                "type": "DWord",
+                "note": "Add My PC Desktop Icon"
+            },
+			{
+                "path": "HKLM:\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Explorer\\HideDesktopIcons\\ClassicStartMenu",
+                "name": "{20D04FE0-3AEA-1069-A2D8-08002B30309D}",
+                "value": 1,
+                "type": "DWord",
+                "note": "remove User Desktop Icon"
+            },
+			{
+                "path": "HKLM:\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Explorer\\HideDesktopIcons\\NewStartPanel",
+                "name": "{59031a47-3f72-44a7-89c5-5595fe6b30ee}",
+                "value": 1,
+                "type": "DWord",
+                "note": "remove User Desktop Icon"
+            },
+			{
+                "path": "HKLM:\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Explorer\\HideDesktopIcons\\ClassicStartMenu",
+                "name": "{59031a47-3f72-44a7-89c5-5595fe6b30ee}",
+                "value": 1,
+                "type": "DWord",
+                "note": "remove User Desktop Icon"
+            },
+			{
+                "path": "HKLM:\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Explorer\\HideDesktopIcons\\NewStartPanel",
+                "name": "{F02C1A0D-BE21-4350-88B0-7367FC96EF3C}",
+                "value": 1,
+                "type": "DWord",
+                "note": "Remove Network Desktop Icon"
+            },
+			{
+                "path": "HKLM:\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Explorer\\HideDesktopIcons\\ClassicStartMenu",
+                "name": "{F02C1A0D-BE21-4350-88B0-7367FC96EF3C}",
+                "value": 1,
+                "type": "DWord",
+                "note": "Remove Network Desktop Icon"
+            },
+			{
+                "path": "HKLM:\\SOFTWARE\\Policies\\Microsoft\\Windows\\CloudContent",
+                "name": "DisableSoftLanding",
+                "value": 1,
+                "type": "DWord",
+                "note": "Remove Network Desktop Icon"
             }
         ]
     },
@@ -49,14 +105,12 @@
             "SMB1Protocol",
             "WorkFolders-Client",
             "FaxServicesClientPackage",
-            "WindowsMediaPlayer",
             "MicrosoftWindowsPowerShellV2Root",
             "MicrosoftWindowsPowerShellV2"
         ]
     },
     "Capabilities": {
         "Remove": [
-            "Media.WindowsMediaPlayer~~~~0.0.12.0",
             "XPS.Viewer~~~~0.0.1.0"
         ],
         "OtherCapabilities": [
@@ -68,7 +122,6 @@
     },
     "Packages": {
         "Remove": [
-            "Microsoft-Windows-MediaPlayer-Package*"
         ]
     }
 }

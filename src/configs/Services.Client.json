@@ -7,7 +7,7 @@
             {
                 "path": "HKLM:\\SYSTEM\\CurrentControlSet\\Services\\tzautoupdate",
                 "name": "Start",
-                "value": 3,
+                "value": 4,
                 "type": "DWord",
                 "note": "Enable Set time zone automatically"
             }
@@ -16,8 +16,6 @@
     "Services": {
         "Restart": [],
         "Stop": [],
-        "Start": [
-            "tzautoupdate"
-        ]
+        "Start": []
     }
 }

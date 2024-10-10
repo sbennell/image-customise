@@ -103,7 +103,7 @@ param (
         "Microsoft.People_8wekyb3d8bbwe",
         # "Microsoft.PPIProjection_cw5n1h2txyewy",
         # "Microsoft.PowerAutomateDesktop_8wekyb3d8bbwe",
-        "Microsoft.Print3D_8wekyb3d8bbwe",
+        # "Microsoft.Print3D_8wekyb3d8bbwe",
         # "Microsoft.ScreenSketch_8wekyb3d8bbwe",
         "Microsoft.SkypeApp_kzf8qxf38zg5c",
         # "Microsoft.Todos_8wekyb3d8bbwe",
@@ -113,7 +113,7 @@ param (
         # "Microsoft.Windows.Photos_8wekyb3d8bbwe",
         # "Microsoft.WindowsAlarms_8wekyb3d8bbwe",
         # "Microsoft.WindowsCalculator_8wekyb3d8bbwe",
-        "Microsoft.WindowsCamera_8wekyb3d8bbwe",
+        # "Microsoft.WindowsCamera_8wekyb3d8bbwe",
         "Microsoft.windowscommunicationsapps_8wekyb3d8bbwe",
         "Microsoft.WindowsFeedbackHub_8wekyb3d8bbwe",
         "Microsoft.WindowsMaps_8wekyb3d8bbwe",
@@ -121,9 +121,9 @@ param (
         "Microsoft.WindowsPhone_8wekyb3d8bbwe",
         # "Microsoft.WindowsSoundRecorder_8wekyb3d8bbwe",
         # "Microsoft.WindowsTerminal_8wekyb3d8bbwe",
-        "Microsoft.XboxApp_8wekyb3d8bbwe",
-        "Microsoft.XboxGameOverlay_8wekyb3d8bbwe",
-        "Microsoft.XboxGamingOverlay_8wekyb3d8bbwe",
+        # "Microsoft.XboxApp_8wekyb3d8bbwe",
+        # "Microsoft.XboxGameOverlay_8wekyb3d8bbwe",
+        # "Microsoft.XboxGamingOverlay_8wekyb3d8bbwe",
         "Microsoft.YourPhone_8wekyb3d8bbwe",
         "Microsoft.ZuneMusic_8wekyb3d8bbwe",
         "Microsoft.ZuneVideo_8wekyb3d8bbwe",
@@ -156,6 +156,7 @@ param (
         "Microsoft.WindowsAppRuntime.Singleton_8wekyb3d8bbwe",
         "Microsoft.WinAppRuntime.DDLM.3.469.1654.0-x6_8wekyb3d8bbwe",
         "Microsoft.WinAppRuntime.DDLM.3.469.1654.0-x8_8wekyb3d8bbwe",
+		"Microsoft.WindowsCamera_8wekyb3d8bbwe",										
         "Microsoft.XboxGameCallableUI_cw5n1h2txyewy"
     )
 )

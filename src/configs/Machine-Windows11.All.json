@@ -24,7 +24,14 @@
                 "value": 0,
                 "type": "DWord",
                 "note": "Prevents the install of the consumer Microsoft Teams client"
+            },
+            {
+                "path": "HKLM:\\SOFTWARE\\Policies\\Microsoft\\Dsh",
+                "name": "AllowNewsAndInterests",
+                "value": 0,
+                "type": "DWord",
+                "note": "Disable Widgets Feature in Windows 11 Lock Screen"
             }
-        ]
+		]
     }
 }

@@ -10,6 +10,13 @@
                 "value": 0,
                 "type": "DWord",
                 "note": "Remove the Chat icon from the Taskbar - note: this value should not be needed on Windows 11 23H2 or higher"
+            },
+            {
+                "path": "HKCU:\\Software\\Policies\\Microsoft\\Windows\\CurrentVersion\\Explorer\\Advanced",
+                "name": "ShowCopilotButton",
+                "value": 0,
+                "type": "DWord",
+                "note": "Hide Copukit Buttion - on Windows 11 23H2 or higher"
             }
         ],
         "SetOthers": [

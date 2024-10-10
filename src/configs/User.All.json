@@ -70,16 +70,16 @@
             {
                 "path": "HKCU:\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\Advanced",
                 "name": "TaskbarGlomLevel",
-                "value": 1,
+                "value": 0,
                 "type": "DWord",
-                "note": "Configures Taskbar buttons on the primary monitor to combine when the Taskbar is full"
+                "note": "Configures Taskbar buttons on the primary monitor to combine"
             },
             {
                 "path": "HKCU:\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\Advanced",
                 "name": "MMTaskbarGlomLevel",
-                "value": 1,
+                "value": 0,
                 "type": "DWord",
-                "note": "Configures Taskbar buttons on secondary monitors to combine when the Taskbar is full"
+                "note": "Configures Taskbar buttons on secondary monitors to combine"
             },
             {
                 "path": "HKCU:\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\Advanced\\People",
@@ -98,7 +98,7 @@
             {
                 "path": "HKCU:\\Software\\Microsoft\\Windows\\CurrentVersion\\Search",
                 "name": "SearchboxTaskbarMode",
-                "value": 3,
+                "value": 1,
                 "type": "DWord",
                 "note": "Collapses the Search box into an icon on the Taskbar"
             },
@@ -129,6 +129,145 @@
                 "value": "Allow",
                 "type": "String",
                 "note": "Enables location services for Universal Windows Platform Apps"
+            },
+            {
+                "path": "HKCU:\\Software\\Microsoft\\Windows\\CurrentVersion\\ContentDeliveryManager",
+                "name": "SystemPaneSuggestionsEnabled",
+                "value": 0,
+                "type": "DWord",
+                "note": "Disables app suggestions in the Start menu"
+            },
+            {
+                "path": "HKCU:\\Software\\Microsoft\\Windows\\CurrentVersion\\ContentDeliveryManager",
+                "name": "RotatingLockScreenOverlayEnabled",
+                "value": 0,
+                "type": "DWord",
+                "note": "LockScreen Tool Tips & Rotation Disable"
+            },
+            {
+                "path": "HKCU:\\Software\\Microsoft\\Windows\\CurrentVersion\\ContentDeliveryManager",
+                "name": "RotatingLockScreenEnabled",
+                "value": 0,
+                "type": "DWord",
+                "note": "LockScreen Tool Tips & Rotation Disable"
+            },
+            {
+                "path": "HKCU:\\Software\\Microsoft\\Windows\\CurrentVersion\\ContentDeliveryManager",
+                "name": "SubscribedContentEnabled",
+                "value": 0,
+                "type": "DWord",
+                "note": "Show me tips about Windows"
+            },
+            {
+                "path": "HKCU:\\Software\\Microsoft\\Windows\\CurrentVersion\\ContentDeliveryManager",
+                "name": "SoftLandingEnabled",
+                "value": 0,
+                "type": "DWord",
+                "note": "Show me tips about Windows"
+            },
+            {
+                "path": "HKCU:\\Software\\Microsoft\\Windows\\CurrentVersion\\ContentDeliveryManager",
+                "name": "ContentDeliveryAllowed",
+                "value": 0,
+                "type": "DWord",
+                "note": "Show me tips about Windows"
+            },            {
+                "path": "HKCU:\\Software\\Microsoft\\Windows\\CurrentVersion\\ContentDeliveryManager",
+                "name": "OemPreInstalledAppsEnabled",
+                "value": 0,
+                "type": "DWord",
+                "note": "Disable the installation of unwanted Windows Store apps (like Candy Crush) for new user profiles"
+            },
+            {
+                "path": "HKCU:\\Software\\Microsoft\\Windows\\CurrentVersion\\ContentDeliveryManager",
+                "name": "PreInstalledAppsEnabled",
+                "value": 0,
+                "type": "DWord",
+                "note": "Disable the installation of unwanted Windows Store apps (like Candy Crush) for new user profiles"
+            },
+            {
+                "path": "HKCU:\\Software\\Microsoft\\Windows\\CurrentVersion\\ContentDeliveryManager",
+                "name": "FeatureManagementEnabled",
+                "value": 0,
+                "type": "DWord",
+                "note": "Disable Ads, Suggestions and Tips in Windows"
+            },
+            {
+                "path": "HKCU:\\Software\\Microsoft\\Windows\\CurrentVersion\\ContentDeliveryManager",
+                "name": "PreInstalledAppsEverEnabled",
+                "value": 0,
+                "type": "DWord",
+                "note": "Disable Ads, Suggestions and Tips in Windows"
+            },
+            {
+                "path": "HKCU:\\Software\\Microsoft\\Windows\\CurrentVersion\\ContentDeliveryManager",
+                "name": "SubscribedContent-310093Enabled",
+                "value": 0,
+                "type": "DWord",
+                "note": "Disable Ads, Suggestions and Tips in Windows"
+            },
+            {
+                "path": "HKCU:\\Software\\Microsoft\\Windows\\CurrentVersion\\ContentDeliveryManager",
+                "name": "SubscribedContent-338387Enabled",
+                "value": 0,
+                "type": "DWord",
+                "note": "Disable Ads, Suggestions and Tips in Windows"
+            },
+            {
+                "path": "HKCU:\\Software\\Microsoft\\Windows\\CurrentVersion\\ContentDeliveryManager",
+                "name": "SubscribedContent-338388Enabled",
+                "value": 0,
+                "type": "DWord",
+                "note": "Disable Ads, Suggestions and Tips in Windows"
+            },
+            {
+                "path": "HKCU:\\Software\\Microsoft\\Windows\\CurrentVersion\\ContentDeliveryManager",
+                "name": "SubscribedContent-338389Enabled",
+                "value": 0,
+                "type": "DWord",
+                "note": "Disable Ads, Suggestions and Tips in Windows"
+            },
+            {
+                "path": "HKCU:\\Software\\Microsoft\\Windows\\CurrentVersion\\ContentDeliveryManager",
+                "name": "SubscribedContent-338393Enabled",
+                "value": 0,
+                "type": "DWord",
+                "note": "Disable Ads, Suggestions and Tips in Windows"
+            },
+            {
+                "path": "HKCU:\\Software\\Microsoft\\Windows\\CurrentVersion\\ContentDeliveryManager",
+                "name": "SubscribedContent-353694Enabled",
+                "value": 0,
+                "type": "DWord",
+                "note": "Disable Ads, Suggestions and Tips in Windows"
+            },
+            {
+                "path": "HKCU:\\Software\\Microsoft\\Windows\\CurrentVersion\\ContentDeliveryManager",
+                "name": "SubscribedContent-353696Enabled",
+                "value": 0,
+                "type": "DWord",
+                "note": "Disable Ads, Suggestions and Tips in Windows"
+            },
+            {
+                "path": "HKCU:\\Software\\Policies\\Microsoft\\Windows\\CloudContent",
+                "name": "DisableWindowsSpotlightFeatures",
+                "value": 1,
+                "type": "DWord",
+                "note": ""
+            },
+            {
+                "path": "HKCU:\\Software\\Microsoft\\Windows\\CurrentVersion\\GameDVR",
+                "name": "AppCaptureEnabled",
+                "value": 0,
+                "type": "DWord",
+                "note": ""
+            },
+            {
+                "path": "HKCU:\\System\\GameConfigStore",
+                "name": "GameDVR_Enabled",
+                "value": 0,
+                "type": "DWord",
+                "note": ""  	  
             }
         ]
     }
